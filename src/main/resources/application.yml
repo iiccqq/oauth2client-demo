@@ -1,0 +1,10 @@
+server:
+     port: 8088
+security:
+    oauth2:
+        client:
+            clientId: acme
+            clientSecret: acmesecret
+            accessTokenUri: http://localhost:8080/uaa/oauth/token
+            userAuthorizationUri: http://localhost:8080/uaa/oauth/authorize
+            clientAuthenticationScheme: form
